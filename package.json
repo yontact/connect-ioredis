@@ -1,10 +1,21 @@
 {
-  "name": "connect-redis",
-  "description": "Redis session store for Connect",
+  "name": "connect-ioredis",
+  "description": "Redis session store for Connect which support sentinels and clusters via ioredis",
   "version": "1.4.5",
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "author": "fanhai inc <fanhaitech@qq.com>",
+  "contributors": [
+    "Chen Wei <acee06.weichen@gmail.com>"
+  ],
+  "license": "MIT",
   "main": "./index.js",
-  "dependencies": { "redis": "0.7.x", "debug": "*" },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yontact/connect-ioredis.git"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ioredis": "^2.3.0"
+  },
   "devDependencies": { "connect": "*" },
   "engines": { "node": "*" }
 }

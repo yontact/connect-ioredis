@@ -1,6 +1,6 @@
-# Connect Redis
+# Connect ioRedis
 
-connect-redis is a Redis session store backed by [node_redis](http://github.com/mranney/node_redis), and is insanely fast :). Requires redis >= `2.0.0` for the _SETEX_ command.
+connect-ioredis is a Redis session store backed by [ioredis](http://github.com/mranney/node_redis), and is insanely fast :). Requires redis >= `2.0.0` for the _SETEX_ command.
 
  connect-redis `>= 1.0.0` support only connect `>= 1.0.0`.
 
