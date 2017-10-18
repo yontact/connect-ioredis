@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "ioredis": "^1.7.5"
+    "ioredis": "*"
   },
   "devDependencies": {
     "blue-tape": "^0.1.8",
