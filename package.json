@@ -1,10 +1,11 @@
 {
-  "name": "connect-redis",
-  "description": "Redis session store for Connect",
+  "name": "connect-ioredis",
+  "description": "ioRedis session store for Connect",
   "version": "3.1.0",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
-    "Marc Harter <wavded@gmail.com>"
+    "Marc Harter <wavded@gmail.com>",
+    "Chris Hartwig <chris@chris-hartwig.com>"
   ],
   "license": "MIT",
   "main": "./index.js",
@@ -14,16 +15,16 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "redis": "^2.1.0"
+    "ioredis": "^1.7.5"
   },
   "devDependencies": {
     "blue-tape": "^0.1.8",
     "bluebird": "^2.3.2",
     "eslint": "^1.6.0",
     "express-session": "^1.9.1",
-    "ioredis": "^1.7.5",
     "istanbul": "^0.3.2",
-    "tape": "^4.2.1"
+    "tape": "^4.2.1",
+    "redis": "^2.1.0"
   },
   "engines": {
     "node": "*"
